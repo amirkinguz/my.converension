@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS LINK -->
+     <link rel="stylesheet" href="./mai.css">
+</head>
+<body>
+  <!-- bosh sahifa -->
+    <div class="container">
+        <div class="header">Xush kelibsiz</div>
+        <!-- chatlar -->
+         <!-- link tayyor ulash kerak yangi chat2.html och va ulash kerak holos -->
+        <div class="user-row" onclick="openChat('chat.html')">
+            <img src="./img/i.webp" alt="User">
+            <div class="name">Ali Hasanov</div>
+            <div class="arrow">>>>>></div>
+        </div>
+        <!-- link tayyor ulash kerak yangi chat2.html och va ulash kerak holos -->
+        <div class="user-row" onclick="openChat('chat2.html')">
+            <img src="./img/i.webp" alt="User">
+            <div class="name">Dilnoza Karimova</div>
+            <div class="arrow">>>>>></div>
+        </div>
+          <!-- link tayyor ulash kerak yangi chat2.html och va ulash kerak holos -->
+        <div class="user-row" onclick="openChat('chat3.html')">
+            <img src="./img/i.webp" alt="User">
+            <div class="name">Javlon Bekmurodov</div>
+            <div class="arrow">>>>>></div>
+        </div>
+         <!-- link tayyor ulash kerak yangi chat2.html och va ulash kerak holos -->
+        <div class="user-row" onclick="openChat('chat4.html')">
+            <img src="./img/i.webp" alt="User">
+            <div class="name">Gulnora Akhmedova</div>
+            <div class="arrow">>>>>></div>
+        </div>
+<!-- chatlar tugadi -->
+    </div>
+     <!-- ko'rsatuv -->
+      <h6 style="font-size: 100px;">Marxamat saytingiz tayyor :)</h6>
+      <img  src="./img/i.webp" alt="">
+    <script>
+        function openChat(chatPage) {
+            // userni kerakli chat sahifasiga yo‘naltirish
+            window.location.href = chatPage;  
+        }
+    </script>
+
+</body>
+</html>
